@@ -1,11 +1,12 @@
 
+import Hero from "./components/Hero";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="bg-gray-900 min-h-screen flex items-center justify-center">
-      <h1 className="text-white text-4xl font-bold">
-        Hola, soy Yahir 👋
-      </h1>
+    <div className=" min-h-screen flex flex-col w-full relative justify-center">
+        <Header/>
+        <Hero/>
     </div>
   )
 }

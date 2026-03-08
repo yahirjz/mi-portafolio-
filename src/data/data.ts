@@ -21,6 +21,7 @@ export const data = {
     ],
     projects: [
         {
+            img: "",
             title: "Mi primer poyecto",
             description: "falta ", // <-- falta poner la descripción aqui
             tech: [ "React", "typescript"],
@@ -28,7 +29,4 @@ export const data = {
             live: "#"
         }
     ]
-       
-
-    
 }
