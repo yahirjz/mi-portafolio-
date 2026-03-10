@@ -7,18 +7,24 @@ export const data = {
         linkedin: "por completar", // <-- falta completar
         email: "yahir.rod137@gmail.com",
     },
+
+    //<-- HABILIDADES 
     skills: [
         { name: "React"},
+        { name: "JavaScript"},
         { name: "TypeScript" },
+        { name: "Node.js"},
         { name: "Pyhton"},
         { name: "FataAPI"},
-        { name: "sequelize"},
+        { name: "Sequelize"},
         { name: "PostgreSQL"},
+        {name: "Git"},
         { name: "GitHub"},
         { name: "Vercel" },
-        { name: "firebase"},
-        
+        { name: "Firebase"},
     ],
+
+    // <--- PROYECTOS   
     projects: [
         {
             img: "https://placehold.co/300x300",
