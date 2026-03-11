@@ -1,11 +1,10 @@
 export const data = {
     name: "Jaime Jair",
     role: "Full stack Developer",
-    about: "Desarrollador apasionado",
+    about: "Desarrollador web en formación y estudiante de Ingeniería en Sistemas, apasionado por JavaScript y el desarrollo de aplicaciones modernas. Trabajo principalmente con React, TypeScript y Node.js, y me enfoco en construir proyectos prácticos que fortalezcan mis habilidades en desarrollo full-stack, manejo de estado, APIs y bases de datos como MySQL.",
     social: {
         github: "https://github.com/yahirjz/",
-        linkedin: "por completar", // <-- falta completar
-        email: "yahir.rod137@gmail.com",
+        linkedin: "https://www.linkedin.com/in/jaime-jair-rodriguez-juarez-82494b317/", // <-- falta completar
     },
 
     //<-- HABILIDADES 

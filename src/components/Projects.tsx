@@ -3,7 +3,7 @@ import ProjectsCard from "./ProjectCard";
 
 const Projects = () => {
     return(
-        <div className="flex gap-4 py-50 grid grid-cols-3 gap-6 mx-auto px-20">
+        <section id="proyectos" className="flex gap-4 py-50 grid grid-cols-3 gap-6 mx-auto px-20">
             {data.projects.map((p)=>( 
                 <ProjectsCard
                     key={p.title}
@@ -16,7 +16,7 @@ const Projects = () => {
                 />
                 ))
             }
-        </div>
+        </section>
     )
 }
 export default Projects;
