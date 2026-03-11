@@ -3,7 +3,10 @@ import ProjectsCard from "./ProjectCard";
 
 const Projects = () => {
     return(
-        <section id="proyectos" className="flex gap-4 py-50 grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto px-20">
+        <section id="proyectos" className="flex flex-col items-center py-50 px-20">
+            <h1 className="text-white font-bold text-3xl"> Proyectos </h1>
+
+            <div className="flex gap-4 grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto ">
             {data.projects.map((p)=>( 
                 <ProjectsCard
                     key={p.title}
@@ -16,6 +19,7 @@ const Projects = () => {
                 />
                 ))
             }
+            </div>
         </section>
     )
 }

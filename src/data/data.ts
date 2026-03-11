@@ -26,7 +26,7 @@ export const data = {
     // <--- PROYECTOS   
     projects: [
         {
-            img: "https://placehold.co/300x300",
+            img: "https://res.cloudinary.com/deyjebm1c/image/upload/v1773261821/Top_Full_Stack_Developer_Services_in_Sunnyvale_ebfcxz.jpg",
             title: "Mi primer poyecto",
             description: " Buscador utilizando componentes de React", // <-- falta poner la descripción aqui
             tech: [ "React", "typescript"],
@@ -34,7 +34,7 @@ export const data = {
             live: "#"
         },
         {
-            img: "https://placehold.co/300x300",
+            img: "https://res.cloudinary.com/deyjebm1c/image/upload/v1773261821/Top_Full_Stack_Developer_Services_in_Sunnyvale_ebfcxz.jpg",
             title: "Juego de piedra papel o tijera",
             description: " Un juego clasico de piedra papel o tijer", 
             tech: [ "React", "Typescript", "NoSQL", "APIRest"],
@@ -42,7 +42,7 @@ export const data = {
             live: "#"
         },
         {
-            img: "https://placehold.co/300x300",
+            img: "https://res.cloudinary.com/deyjebm1c/image/upload/v1773261821/Top_Full_Stack_Developer_Services_in_Sunnyvale_ebfcxz.jpg",
             title: "Buscador de Mascotas",
             description: "App, para encontra mascotas perdidas mas cerca", 
             tech: [ "React", "Typescript", "SQL", "APIRest","Algolia", "Mapbox"],
@@ -50,26 +50,10 @@ export const data = {
             live: "#"
         },
         {
-            img: "https://placehold.co/300x300",
+            img: "https://res.cloudinary.com/deyjebm1c/image/upload/v1773261821/Top_Full_Stack_Developer_Services_in_Sunnyvale_ebfcxz.jpg",
             title: "Mi primer poyecto",
             description: " Buscador utilizando componentes de React", // <-- falta poner la descripción aqui
             tech: [ "React", "typescript"],
-            github: "https://github.com/",
-            live: "#"
-        },
-        {
-            img: "https://placehold.co/300x300",
-            title: "Juego de piedra papel o tijera",
-            description: " Un juego clasico de piedra papel o tijer", 
-            tech: [ "React", "Typescript", "NoSQL", "APIRest"],
-            github: "https://github.com/",
-            live: "#"
-        },
-        {
-            img: "https://placehold.co/300x300",
-            title: "Buscador de Mascotas",
-            description: "App, para encontra mascotas perdidas mas cerca", 
-            tech: [ "React", "Typescript", "SQL", "APIRest","Algolia", "Mapbox"],
             github: "https://github.com/",
             live: "#"
         }

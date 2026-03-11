@@ -11,7 +11,7 @@ const Hero = () => {
                 <Skills/>
             </div>
             <div>
-                <img src="https://placehold.co/400x400" alt="Código"/>
+                <img src="https://res.cloudinary.com/deyjebm1c/image/upload/v1773261817/Full_Stack_Developer_Portfolio_Image_it4sxl.jpg" alt="Código"/>
             </div>
         </div>
     )
