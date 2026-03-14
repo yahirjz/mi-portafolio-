@@ -9,18 +9,32 @@ export const data = {
 
     //<-- HABILIDADES 
     skills: [
-        { name: "React"},
-        { name: "JavaScript"},
-        { name: "TypeScript" },
-        { name: "Node.js"},
-        { name: "Pyhton"},
-        { name: "FataAPI"},
-        { name: "Sequelize"},
-        { name: "PostgreSQL"},
-        {name: "Git"},
-        { name: "GitHub"},
-        { name: "Vercel" },
-        { name: "Firebase"},
+        
+        {frontend: [
+            { name: "HTML" },
+            { name: "CSS" },
+            { name: "JavaScript" },
+            { name: "TypeScript" },
+            { name: "React" },
+            {name: "Next.js"}
+        ]},
+        
+        {backend: [
+            { name: "Node.js"},
+            { name: "Pyhton"},
+            { name: "FataAPI"},
+            { name: "PostgreSQL"},
+            { name: "Sequelize"},
+        ]},
+        
+        { herramientas: [
+            {name: "Postman"},
+            {name: "Git"},
+            { name: "GitHub"},
+            { name: "Vercel" },
+            { name: "Firebase"},
+            {name: "Supabase"},
+        ]},
     ],
 
     // <--- PROYECTOS   
